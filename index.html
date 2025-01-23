@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display:grid;
+            grid-template-columns: 2cm 2cm 2cm 2cm 2cm 2cm 2cm;
+            grid-template-rows: 1cm 1cm 1cm 1cm 1cm;
+            gap:10px
+        }
+        .d1{
+            grid-row:1/4;
+            background-color: green;
+            align-content: center;
+            text-align: center;
+            border:2px solid black;
+
+        }
+        .d2{
+            grid-column: 2/6;
+            border:2px solid black;
+        }
+        .d3{
+            grid-column: 2/5;
+            border:2px solid black;
+        }
+        .d4{
+            grid-column-start:2;
+            border:2px solid black;
+        }
+        .d5{
+            grid-column-start:3;
+            border:2px solid black;
+        }
+        .d6{
+            grid-column-start: 4;
+            border:2px solid black;
+        }
+        .d7{
+            grid-column-start: 5;
+            border:2px solid black;
+        }
+        .d8{
+            grid-column-start: 6;
+            border:2px solid black;
+        }
+        .d9{
+            grid-column-start: 7;
+            border:2px solid black;
+        }
+        .d10{
+            grid-row:4/9;
+            align-content: center;
+            text-align: center;
+            border:2px solid black;
+        }
+        .d11{
+            grid-column: 2/8;
+            align-content: center;
+            text-align: center;
+            height: 113px;
+            border:2px solid black;
+        }
+        .d12{
+            grid-column: 2/8;
+            grid-row:9/12;
+            height:30px ;
+            align-content: center;
+            text-align: center;
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">Logo</div>
+        <div class="d2">2</div>
+        <div class="d3">21</div>
+        <div class="d4">3</div>
+        <div class="d5">4</div>
+        <div class="d6">5</div>
+        <div class="d7">6</div>
+        <div class="d8">7</div>
+        <div class="d9">8</div>
+        <div class="d10">Navigation</div>
+        <div class="d11">Content</div>
+        <div class="d12">Footer</div>
+    </div>
+</body>
+</html>
